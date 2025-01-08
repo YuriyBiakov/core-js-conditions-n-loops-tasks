@@ -130,19 +130,19 @@ function convertToRomanNumerals(/* num */) {
  *  '10,5'    => 'one zero point five'
  *  '1950.2'  => 'one nine five zero point two'
  */
-function convertNumberToString(numberStr) {
-  let result = '';
-  for (let i = 0; i < numberStr.length; i += 1) {
-    switch (numberStr[i]) {
-      case '0':
-        result += 'zero';
-        break;
-      case '1':
-        result += 'one';
-        break;
-      
-    }
-  }
+function convertNumberToString(/* numberStr */) {
+  throw new Error('Not implemented');
+  // let result = '';
+  // for (let i = 0; i < numberStr.length; i += 1) {
+  //   switch (numberStr[i]) {
+  //     case '0':
+  //       result += 'zero';
+  //       break;
+  //     case '1':
+  //       result += 'one';
+  //       break;
+  //   }
+  // }
 }
 
 /**
